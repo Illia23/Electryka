@@ -1,0 +1,41 @@
+/* Основний контейнер */
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Кнопка */
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Текст (з анімацією) */
+.text {
+    opacity: 0;
+    /* Початково прихований */
+    transform: translateY(20px);
+    /* Початково трохи зсунутий вниз */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    /* Плавний перехід */
+}
+
+.text.visible {
+    opacity: 1;
+    /* З’являється */
+    transform: translateY(0);
+    /* Рух до початкового положення */
+}
