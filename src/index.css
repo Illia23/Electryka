@@ -11,15 +11,23 @@
   -moz-osx-font-smoothing: grayscale;
 
 
-  width: 100%;
-  height: 100vh;
-  /* Висота на весь екран */
-  background-image: url('../image/photo_2024-12-03_06-52-03.jpg');
-  /* Шлях до вашого фото */
-  background-size: cover;
-  /* Масштабування для покриття екрану */
-  background-position: center;
-  /* Центрування зображення */
-  background-repeat: no-repeat;
-  /* Заборона повторення */
+}
+
+button {
+  margin: 0;
+  /* Скидає відступи */
+  padding: 0;
+  /* Скидає внутрішні відступи */
+  border: none;
+  /* Видаляє рамки */
+  background: none;
+  /* Прибирає фон */
+  color: inherit;
+  /* Використовує колір тексту, успадкований від батьків */
+  font: inherit;
+  /* Використовує шрифт, успадкований від батьків */
+  text-align: inherit;
+  /* Вирівнювання тексту як у батьків */
+  cursor: pointer;
+  /* Додає вказівник миші для клікабельності */
 }

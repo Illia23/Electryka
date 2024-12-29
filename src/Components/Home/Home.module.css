@@ -1,0 +1,60 @@
+.firstContainer {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../../../images/about-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+
+}
+
+.h1 {
+    margin: 0px;
+    padding-top: 25px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.VadBud {
+    margin: 0px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.textFirst {
+    color: #fff;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+/* ?? */
+
+.titleServices {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    line-height: 1;
+    text-decoration: underline;
+    text-decoration-color: #FBDF0A;
+    text-underline-offset: 5px;
+
+
+}
+
+.listServices {
+    display: flex;
+    list-style: none;
+}
+
+.itemServices {
+    background-color: #FBDF0A;
+}
+
+.itemServices:hover {
+    background: #000;
+    ;
+}

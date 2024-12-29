@@ -1,17 +1,18 @@
 import { useState } from "react";
 import css from './About.module.css'
 const About = () => {
-    const [step, setStep] = useState(0); // Стан для управління кроками
-
-  // Обробник натискання кнопки
+    const [step, setStep] = useState(0); 
+    const [textButton, setTextButton] = useState("Podglądaj informacje o nas");
   const handleNextPart = () => {
-    if (step < 4) setStep(step + 1); // Збільшити крок до максимального значення
+      if (step < 4) setStep(step + 1); 
+      if (step === 0) {
+          setTextButton("Pokaż więcej");
+      }
   };
   return (
      <div className={css.container}>
       <h1>O Nas</h1>
 
-      {/* Показуємо текст частинами залежно від значення step */}
       {step >= 0 && (
         <p className={`${css.text} ${step >= 1 ? css.visible : ""}`}>
           <strong>Twój niezawodny partner w dziedzinie usług elektrycznych</strong>
@@ -65,10 +66,9 @@ const About = () => {
         </p>
       )}
 
-      {/* Кнопка для показу наступної частини тексту */}
       {step < 4 && (
         <button className={css.button}  onClick={handleNextPart}>
-          Pokaż więcej
+          {textButton}
         </button>
       )}
     </div>
