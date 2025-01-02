@@ -12,7 +12,7 @@ const Home = () => {
         <div className={css.servicesContainer}>
           <ul className={css.listServices}>
             <li className={css.itemServices}>
-              <img className={css.imageItem} src="../images/building-icon.png" alt="" />
+              <img className={css.imageItem} src="./images/building-icon.png" alt="" />
               <h3 className={css.titleItema}>Residential Services</h3>
               <p className={css.textItem}>Providing reliable and professional electrical solutions tailored to meet the unique needs of your home</p>
             </li>
