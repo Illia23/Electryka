@@ -12,24 +12,24 @@ const Home = () => {
         <div className={css.servicesContainer}>
           <ul className={css.listServices}>
             <li className={css.itemServices}>
-              <img src="../../../images/building-icon.png" alt="" />
-              <h3></h3>
-              <p></p>
+              <img className={css.imageItem} src="../../../images/building-icon.png" alt="" />
+              <h3 className={css.titleItema}>Residential Services</h3>
+              <p className={css.textItem}>Providing reliable and professional electrical solutions tailored to meet the unique needs of your home</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h3></h3>
-              <p></p>
+            <li className={css.itemServices2}>
+              <img className={css.imageItem} src="../../../images/flash-icon.png" alt="" />
+              <h3 className={css.titleItema}>Commercial Services</h3>
+              <p className={css.textItem}>Delivering efficient and customized electrical services to power your business operations</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h3></h3>
-              <p></p>
+            <li className={css.itemServices}>
+              <img className={css.imageItem} src="../../../images/bulb-icon.png" alt="" />
+              <h3 className={css.titleItema}> Electrical Services</h3>
+              <p className={css.textItem}>Offering comprehensive electrical solutions to ensure safety, reliability, and energy efficiency</p>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h3></h3>
-              <p></p>
+            <li className={css.itemServices}>
+              <img className={css.imageItem} src="../../../images/industrial-icon.png" alt="" />
+              <h3 className={css.titleItema}> Industrial Services </h3>
+              <p className={css.textItem}>Providing advanced electrical services designed to support large-scale industrial operations</p>
             </li>
          </ul>
         </div>
