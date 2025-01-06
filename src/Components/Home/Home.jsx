@@ -1,4 +1,8 @@
 import css from './Home.module.css'
+import buildingIcon from '../../../images/building-icon.png'
+import flashIcon from '../../../images/flash-icon.png'
+import bulbIcon from '../../../images/bulb-icon.png'
+import industrialIcon from '../../../images/industrial-icon.png'
 const Home = () => {
   return (
     <>
@@ -12,22 +16,22 @@ const Home = () => {
         <div className={css.servicesContainer}>
           <ul className={css.listServices}>
             <li className={css.itemServices}>
-              <img className={css.imageItem} src="building-icon.png" alt="" />
+              <img className={css.imageItem} src={buildingIcon} alt="" />
               <h3 className={css.titleItema}>Residential Services</h3>
               <p className={css.textItem}>Providing reliable and professional electrical solutions tailored to meet the unique needs of your home</p>
             </li>
             <li className={css.itemServices2}>
-              <img className={css.imageItem} src="../../../images/flash-icon.png" alt="" />
+              <img className={css.imageItem} src={flashIcon} alt="" />
               <h3 className={css.titleItema}>Commercial Services</h3>
               <p className={css.textItem}>Delivering efficient and customized electrical services to power your business operations</p>
             </li>
             <li className={css.itemServices}>
-              <img className={css.imageItem} src="../../../images/bulb-icon.png" alt="" />
+              <img className={css.imageItem} src={bulbIcon} alt="" />
               <h3 className={css.titleItema}> Electrical Services</h3>
               <p className={css.textItem}>Offering comprehensive electrical solutions to ensure safety, reliability, and energy efficiency</p>
             </li>
             <li className={css.itemServices}>
-              <img className={css.imageItem} src="../../../images/industrial-icon.png" alt="" />
+              <img className={css.imageItem} src={industrialIcon} alt="" />
               <h3 className={css.titleItema}> Industrial Services </h3>
               <p className={css.textItem}>Providing advanced electrical services designed to support large-scale industrial operations</p>
             </li>
