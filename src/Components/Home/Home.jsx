@@ -3,6 +3,7 @@ import buildingIcon from '../../../images/building-icon.png'
 import flashIcon from '../../../images/flash-icon.png'
 import bulbIcon from '../../../images/bulb-icon.png'
 import industrialIcon from '../../../images/industrial-icon.png'
+import about from '../../../images/about-img.png'
 const Home = () => {
   return (
     <>
@@ -35,10 +36,26 @@ const Home = () => {
               <h3 className={css.titleItema}> Industrial Services </h3>
               <p className={css.textItem}>Providing advanced electrical services designed to support large-scale industrial operations</p>
             </li>
-         </ul>
+          </ul>
+        </div>
+        <div className={css.AboutUs}>
+          <h2 className={css.titleAbout}>About Our electricity Company</h2>
+          <div className={css.containerAbout}>
+              <p className={css.textAbout}>We are dedicated to providing reliable and sustainable energy solutions tailored to your needs. With a commitment to safety, quality, and efficiency, we strive to power homes and businesses with innovation and care.</p>
+            <img className={css.imageLigth} src={about} alt="ligth" />
+          </div>
+        </div>
+        <div className={css.containerCustomers}>
+          <h2>Customers</h2>
+          <p>kldsjf</p>
+          <div>
+            <img src="" alt="" />
+            <p><span> </span> </p>
+          </div>
+          <button></button>
         </div>
       </div>
-    </>
+    </> 
       
   )
 }
