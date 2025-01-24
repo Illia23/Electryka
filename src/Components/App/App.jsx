@@ -5,6 +5,7 @@ import Contact from '../Contact/Contact'
 import css from './App.module.css'
 import { Routes, Route } from "react-router-dom";
 import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
+      <Footer/>
     </div>
   )
 }

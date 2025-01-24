@@ -116,3 +116,34 @@
     text-decoration-color: #FBDF0A;
     text-underline-offset: 5px;
 }
+
+/* // */
+
+.containerCustomers {
+    margin-top: 70px;
+}
+
+.titleCustomers {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+
+}
+
+.textCustomers {
+    font-size: 18px;
+}
+
+.containerWorkers {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.workers {
+    width: 300px;
+}
+
+/* #252525 */

@@ -4,6 +4,7 @@ import flashIcon from '../../../images/flash-icon.png'
 import bulbIcon from '../../../images/bulb-icon.png'
 import industrialIcon from '../../../images/industrial-icon.png'
 import about from '../../../images/about-img.png'
+import workers from '../../../images/client-img.png'
 const Home = () => {
   return (
     <>
@@ -46,13 +47,23 @@ const Home = () => {
           </div>
         </div>
         <div className={css.containerCustomers}>
-          <h2>Customers</h2>
-          <p>kldsjf</p>
-          <div>
-            <img src="" alt="" />
-            <p><span> </span> </p>
+          <h2 className={css.titleCustomers}>Customers</h2>
+          <p className={css.textCustomers}>The People Behind Our Success</p>
+          <div className={css.containerWorkers}>
+            <div className={css.workers}>
+              <img src={workers} alt="" />
+              <h3>Illia Pryimak</h3>
+              <p>Looking for a reliable electrician? Illia Pryimak is an experienced professional who ensures high-quality and safe execution of all tasks.
+                 </p>
+            </div>
+            <div className={css.workers}>
+              <img src={workers} alt="" />
+              <h3>Andrii Arutunian</h3>
+              <p>Need a skilled electrician? Andrii Arutunian is a true expert who will complete all tasks quickly, reliably, and safely.</p>
+            </div>
+            
           </div>
-          <button></button>
+          
         </div>
       </div>
     </> 

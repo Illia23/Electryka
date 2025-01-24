@@ -1,0 +1,43 @@
+.footer {
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    color: #fff;
+}
+
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 15px;
+    background-color: #252525;
+    height: 76px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* #FBDF0A */
+.link {
+    color: #fff;
+    margin-right: 35px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.link:hover {
+    color: #FBDF0A;
+    text-decoration: underline;
+}
+
+.active {
+    color: #FBDF0A;
+}
