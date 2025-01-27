@@ -2,8 +2,10 @@
     background-color: #252525;
     display: flex;
     justify-content: center;
-    gap: 300px;
+    gap: 100px;
     color: #fff;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 
@@ -40,4 +42,22 @@
 
 .active {
     color: #FBDF0A;
+}
+
+.containerBlog {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.networks:hover {
+    fill: #FBDF0A;
 }
