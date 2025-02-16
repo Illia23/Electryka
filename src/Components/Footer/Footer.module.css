@@ -2,8 +2,8 @@
     background-color: #252525;
     display: flex;
     justify-content: center;
-    gap: 100px;
     color: #fff;
+    gap: 75px;
     padding-top: 50px;
     padding-bottom: 25px;
 }
@@ -45,12 +45,10 @@
 }
 
 .containerBlog {
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
 }
 
 .social {
@@ -60,4 +58,27 @@
 
 .networks:hover {
     fill: #FBDF0A;
+}
+
+
+
+.textBlog {
+    width: 450px;
+}
+
+/* // */
+
+.Contact {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    /* Зменшений розмір шрифту */
+    color: #ddd;
+}
+
+.Text {
+    margin: 2px 0;
+    font-size: 15px;
+    /* Ще менший розмір */
+    color: #bbb;
 }

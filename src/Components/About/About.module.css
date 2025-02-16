@@ -1,41 +1,53 @@
-/* Основний контейнер */
-.container {
+.AboutUs {
+    padding: 50px;
+}
+
+.titleAbout {
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #FBDF0A;
+    text-underline-offset: 10px;
+}
+
+.containerAbout {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageLigth {
+    width: 500px;
+    height: 500px;
+}
+
+.textAbout {
+    font-size: 20px;
+    width: 600px;
+
+}
+
+/* .. */
+.Contact {
+    background-color: #f4f4f4;
     padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    border-radius: 8px;
     text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Кнопка */
-.button {
-    margin-top: 20px;
-    padding: 10px 20px;
+.Title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Text {
     font-size: 16px;
-    background-color: #4E4E49;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #0056b3;
-}
-
-/* Текст (з анімацією) */
-.text {
-    opacity: 0;
-    /* Початково прихований */
-    transform: translateY(20px);
-    /* Початково трохи зсунутий вниз */
-    transition: opacity 0.5s ease, transform 0.5s ease;
-    /* Плавний перехід */
-}
-
-.text.visible {
-    opacity: 1;
-    /* З’являється */
-    transform: translateY(0);
-    /* Рух до початкового положення */
+    color: #555;
+    margin: 5px 0;
 }

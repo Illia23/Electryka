@@ -38,6 +38,7 @@ const Home = () => {
               <p className={css.textItem}>Providing advanced electrical services designed to support large-scale industrial operations</p>
             </li>
           </ul>
+      </div>
         </div>
         <div className={css.AboutUs}>
           <h2 className={css.titleAbout}>About Our electricity Company</h2>
@@ -65,7 +66,6 @@ const Home = () => {
           </div>
           
         </div>
-      </div>
     </> 
       
   )

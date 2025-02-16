@@ -22,8 +22,8 @@ const Footer = () => {
       </nav>
           </div>
           <div className={css.containerBlog}>
-              <h3>Blog</h3>
-              <p>Tips, guides, and updates on modern electrical solutions for your home or business.</p>
+              <h3 className={css.Blog}>Blog</h3>
+              <p className={css.textBlogx}>Tips, guides, and updates on modern electrical solutions for your home or business.</p>
               <div className={css.social}>
                   <a  href="">
                      <svg className={css.networks} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" viewBox="0 0 24 24">
@@ -41,6 +41,11 @@ const Footer = () => {
 </svg>
                   </a>
             </div>
+      </div>
+        <div className={css.Contact}>
+            <p className={css.Text}>📞 Phone: +48 881 856 801</p>
+            <p className={css.Text}>✉️ Email: andrii.arutiunian@gmail.com</p>
+            <p className={css.Text}>⏰ Working Hours: Mon-Fri, 7:00  - 17:00 </p>
           </div>
     </div>
   )
