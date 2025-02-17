@@ -68,6 +68,20 @@ const Services = () => {
               </ul>
       </div>
       <div className={css.container}>
+         <table className={css.table}>
+      <thead>
+        <tr>
+          <th className={css.th}>Service Name</th>
+          <th className={css.th}>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td className={css.td}>Express Electrical Services</td>
+          <td className={css.td}>Price is agreed on-site</td>
+        </tr>
+      </tbody>
+    </table>
         <h2>Basic Electrical Installation Works:</h2>
       <table className={css.table}>
         <thead>
