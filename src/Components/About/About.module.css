@@ -25,10 +25,9 @@
 .textAbout {
     font-size: 20px;
     width: 600px;
-
 }
 
-/* .. */
+/* Стилі для секції "Contact" */
 .Contact {
     background-color: #f4f4f4;
     padding: 20px;
@@ -50,4 +49,70 @@
     font-size: 16px;
     color: #555;
     margin: 5px 0;
+}
+
+/* === Адаптивність === */
+
+/* Для планшетів (768px - 1024px) */
+@media (max-width: 1024px) {
+    .containerAbout {
+        gap: 80px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imageLigth {
+        width: 400px;
+        height: 400px;
+    }
+
+    .textAbout {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .Contact {
+        max-width: 80%;
+    }
+}
+
+/* Для мобільних (до 768px) */
+@media (max-width: 768px) {
+    .AboutUs {
+        padding: 20px;
+    }
+
+    .titleAbout {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .containerAbout {
+        gap: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imageLigth {
+        width: 300px;
+        height: 300px;
+    }
+
+    .textAbout {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .Contact {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .Title {
+        font-size: 20px;
+    }
+
+    .Text {
+        font-size: 14px;
+    }
 }

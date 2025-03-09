@@ -8,8 +8,7 @@
     padding-bottom: 25px;
 }
 
-
-
+/* Навігація */
 .nav {
     display: flex;
     flex-direction: column;
@@ -21,8 +20,6 @@
     align-items: center;
 }
 
-
-/* #FBDF0A */
 .link {
     color: #fff;
     margin-right: 35px;
@@ -30,10 +27,6 @@
     font-size: 17px;
     letter-spacing: 1px;
 }
-
-
-
-
 
 .link:hover {
     color: #FBDF0A;
@@ -44,6 +37,7 @@
     color: #FBDF0A;
 }
 
+/* Блог */
 .containerBlog {
     display: flex;
     flex-direction: column;
@@ -51,6 +45,11 @@
     align-items: center;
 }
 
+.textBlog {
+    width: 450px;
+}
+
+/* Соціальні мережі */
 .social {
     display: flex;
     gap: 15px;
@@ -60,25 +59,96 @@
     fill: #FBDF0A;
 }
 
-
-
-.textBlog {
-    width: 450px;
-}
-
-/* // */
-
+/* Contact */
 .Contact {
     text-align: center;
     padding: 10px;
     font-size: 25px;
-    /* Зменшений розмір шрифту */
     color: #ddd;
 }
 
 .Text {
     margin: 2px 0;
     font-size: 15px;
-    /* Ще менший розмір */
     color: #bbb;
+}
+
+/* === АДАПТИВНІСТЬ === */
+
+/* Планшети (768px - 1024px) */
+@media (max-width: 1024px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .nav {
+        flex-direction: row;
+        height: auto;
+        padding: 15px;
+    }
+
+    .link {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .containerBlog {
+        text-align: center;
+    }
+
+    .textBlog {
+        width: 80%;
+    }
+
+    .social {
+        justify-content: center;
+    }
+}
+
+/* Мобільні пристрої (до 768px) */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .link {
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .containerBlog {
+        width: 100%;
+    }
+
+    .textBlog {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .social {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Contact {
+        font-size: 20px;
+    }
+
+    .Text {
+        font-size: 13px;
+    }
 }

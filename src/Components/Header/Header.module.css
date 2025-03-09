@@ -1,13 +1,29 @@
 .nav {
-    display: flex;
+    position: fixed;
+    /* Закріплення у верхній частині */
+    top: 0;
+    /* Прив’язка до верхнього краю */
+    left: 0;
+    width: 100%;
+    /* Розтягнути на всю ширину */
     background-color: #FBDF0A;
     height: 76px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
+    /* Щоб навігація була поверх інших елементів */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Додає легку тінь */
 }
 
+/* Щоб контент не перекривався навігацією */
+body {
+    padding-top: 80px;
+    /* Додаємо відступ зверху, щоб контент не ховався під навігацією */
+}
 
-
+/* Посилання */
 .link {
     color: #fff;
     margin-right: 35px;
@@ -16,10 +32,6 @@
     letter-spacing: 1px;
 }
 
-
-
-
-
 .link:hover {
     color: #252525;
     text-decoration: underline;
@@ -27,4 +39,33 @@
 
 .active {
     color: #252525;
+}
+
+/* === АДАПТИВНІСТЬ === */
+
+/* Планшети (768px - 1024px) */
+@media (max-width: 1024px) {
+    .nav {
+        justify-content: space-around;
+        height: 70px;
+    }
+
+    .link {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+}
+
+/* Мобільні пристрої (до 768px) */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .link {
+        margin: 5px 0;
+        font-size: 15px;
+    }
 }
