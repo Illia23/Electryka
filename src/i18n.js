@@ -1,38 +1,25 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-import LanguageDetector from "i18next-browser-languagedetector";
+// Локалізації для кожної мови
+import en from './locales/en.json';
+import uk from './locales/uk.json';
+import pl from './locales/pl.json';
 
+// Ініціалізація i18next
 i18n
   .use(initReactI18next)
-  .use(LanguageDetector)
   .init({
     resources: {
-      en: {
-        translation: {
-          welcome: "Welcome to our electrical services",
-          contact: "Contact Us",
-          about: "About Us",
-        },
-      },
-      ua: {
-        translation: {
-          welcome: "Ласкаво просимо до наших електричних послуг",
-          contact: "Зв'яжіться з нами",
-          about: "Про нас",
-        },
-      },
-      pl: {
-        translation: {
-          welcome: "Witamy w naszych usługach elektrycznych",
-          contact: "Skontaktuj się z nami",
-          about: "O nas",
-        },
-      },
+      en: { translation: en },
+      uk: { translation: uk },
+      pl: { translation: pl }
     },
-    fallbackLng: "en",
-    detection: { order: ["navigator", "localStorage", "cookie"], caches: ["localStorage"] },
-    interpolation: { escapeValue: false },
+    lng: "uk", // Мова за замовчуванням
+    fallbackLng: "en", // Якщо переклад не знайдений
+    interpolation: {
+      escapeValue: false // Не потрібно екранувати HTML
+    }
   });
 
 export default i18n;

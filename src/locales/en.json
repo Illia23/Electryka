@@ -1,0 +1,18 @@
+{
+  "footer": {
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "blogText": "Tips, guides, and updates on modern electrical solutions for your home or business.",
+    "phone": "📞 Phone: +48 881 856 801",
+    "email": "✉️ Email: andrii.arutiunian@gmail.com",
+    "workingHours": "⏰ Working Hours: Mon-Fri, 7:00 - 17:00"
+  },
+  "socialMedia": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn"
+  }
+}
