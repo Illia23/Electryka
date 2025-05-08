@@ -78,7 +78,18 @@
   "Installation of open and concealed wiring": "Installation of open and concealed wiring",
   "Laying cables in corrugated pipes or cable ducts": "Laying cables in corrugated pipes or cable ducts",
   "Laying power cables to houses or apartments": "Laying power cables to houses or apartments",
-  "Troubleshooting and fixing wiring issues": "Troubleshooting and fixing wiring issues"
+  "Troubleshooting and fixing wiring issues": "Troubleshooting and fixing wiring issues",
+  "footer": {
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "blogDescription": "Tips, guides, and updates on modern electrical solutions for your home or business.",
+    "phone": "Phone",
+    "email": "Email",
+    "workingHours": "Working Hours"
+  }
 
   
 }

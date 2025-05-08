@@ -78,6 +78,17 @@
   "Installation of open and concealed wiring": "Монтаж відкритої та прихованої проводки",
   "Laying cables in corrugated pipes or cable ducts": "Прокладання кабелів у гофрі або кабель-каналах",
   "Laying power cables to houses or apartments": "Підведення силових кабелів до будинків чи квартир",
-  "Troubleshooting and fixing wiring issues": "Діагностика та усунення проблем із проводкою"
+  "Troubleshooting and fixing wiring issues": "Діагностика та усунення проблем із проводкою",
+  "footer": {
+    "quickLinks": "Швидкі посилання",
+    "home": "Головна",
+    "about": "Про нас",
+    "services": "Послуги",
+    "blog": "Блог",
+    "blogDescription": "Поради, інструкції та новини про сучасні електричні рішення для вашого дому чи бізнесу.",
+    "phone": "Телефон",
+    "email": "Ел. пошта",
+    "workingHours": "Години роботи"
+  }
 
 }

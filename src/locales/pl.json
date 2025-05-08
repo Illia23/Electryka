@@ -78,6 +78,17 @@
   "Installation of open and concealed wiring": "Instalacja kabli na powierzchni i pod tynkiem",
   "Laying cables in corrugated pipes or cable ducts": "Układanie kabli w rurkach karbowanych lub kanałach kablowych",
   "Laying power cables to houses or apartments": "Układanie kabli zasilających do domów lub mieszkań",
-  "Troubleshooting and fixing wiring issues": "Rozwiązywanie problemów i naprawa instalacji"
+  "Troubleshooting and fixing wiring issues": "Rozwiązywanie problemów i naprawa instalacji",
+  "footer": {
+    "quickLinks": "Szybkie linki",
+    "home": "Strona główna",
+    "about": "O nas",
+    "services": "Usługi",
+    "blog": "Blog",
+    "blogDescription": "Porady, przewodniki i aktualizacje dotyczące nowoczesnych rozwiązań elektrycznych dla Twojego domu lub firmy.",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "workingHours": "Godziny pracy"
+  }
 
 }
