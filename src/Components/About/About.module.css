@@ -1,5 +1,7 @@
 .AboutUs {
-    padding: 50px;
+    padding-top: 76px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .titleAbout {
@@ -8,23 +10,28 @@
     text-decoration: underline;
     text-decoration-color: #FBDF0A;
     text-underline-offset: 10px;
+    text-align: center;
 }
 
 .containerAbout {
     display: flex;
-    gap: 150px;
+    gap: 100px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .imageLigth {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
 }
 
 .textAbout {
     font-size: 20px;
-    width: 600px;
+    max-width: 600px;
+    text-align: justify;
 }
 
 /* Стилі для секції "Contact" */
@@ -53,22 +60,32 @@
 
 /* === Адаптивність === */
 
+/* Для ноутбуків (1024px - 1366px) */
+@media (max-width: 1366px) {
+    .containerAbout {
+        gap: 60px;
+    }
+
+    .textAbout {
+        font-size: 18px;
+    }
+}
+
 /* Для планшетів (768px - 1024px) */
 @media (max-width: 1024px) {
     .containerAbout {
-        gap: 80px;
+        gap: 50px;
         flex-direction: column;
         text-align: center;
     }
 
     .imageLigth {
-        width: 400px;
-        height: 400px;
+        max-width: 400px;
     }
 
     .textAbout {
-        width: 90%;
         font-size: 18px;
+        max-width: 90%;
     }
 
     .Contact {
@@ -88,19 +105,18 @@
     }
 
     .containerAbout {
-        gap: 40px;
+        gap: 30px;
         flex-direction: column;
         text-align: center;
     }
 
     .imageLigth {
-        width: 300px;
-        height: 300px;
+        max-width: 300px;
     }
 
     .textAbout {
-        width: 100%;
         font-size: 16px;
+        max-width: 100%;
     }
 
     .Contact {

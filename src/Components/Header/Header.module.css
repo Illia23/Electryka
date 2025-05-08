@@ -1,14 +1,62 @@
+/* Загальна навігація */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: #FBDF0A;
+    height: 76px;
+    padding: 0 40px;
+    position: fixed;
+    /* <-- Ось головна зміна */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* М’яка тінь */
+}
+
+/* Лого */
+.logo {
+    height: auto;
+}
+
+/* Бургер кнопка */
+.burger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 110;
+}
+
+.bar {
+    height: 3px;
+    width: 100%;
+    background-color: #252525;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
 /* Посилання */
+.navLinks {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
 .link {
     color: #fff;
-    margin-right: 35px;
     text-decoration: none;
     font-size: 17px;
     letter-spacing: 1px;
-}
-
-.nav {
-    background-color: #FBDF0A;
+    transition: color 0.3s;
 }
 
 .link:hover {
@@ -20,31 +68,76 @@
     color: #252525;
 }
 
-/* === АДАПТИВНІСТЬ === */
+/* Перемикач мови */
+.languageSwitcher {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 
-/* Планшети (768px - 1024px) */
+.languageButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.languageButton:hover {
+    transform: scale(1.1);
+}
+
+.flag {
+    width: 28px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+/* Адаптивність */
 @media (max-width: 1024px) {
     .nav {
-        justify-content: space-around;
-        height: 70px;
+        padding: 0 20px;
     }
 
-    .link {
-        margin-right: 20px;
-        font-size: 16px;
+    .navLinks {
+        gap: 25px;
+    }
+
+    .languageSwitcher {
+        justify-content: center;
+        margin-top: 10px;
     }
 }
 
-/* Мобільні пристрої (до 768px) */
 @media (max-width: 768px) {
-    .nav {
+    .burger {
+        display: flex;
+    }
+
+    .navLinks {
+        position: absolute;
+        top: 76px;
+        left: 0;
+        width: 100%;
         flex-direction: column;
-        height: auto;
-        padding: 15px 0;
+        align-items: center;
+        background-color: #FBDF0A;
+        padding: 20px 0;
+        display: none;
+        gap: 20px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .navLinks.open {
+        display: flex;
     }
 
     .link {
-        margin: 5px 0;
-        font-size: 15px;
+        font-size: 16px;
+    }
+
+    .flag {
+        width: 24px;
+        height: 16px;
     }
 }

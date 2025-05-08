@@ -1,18 +1,84 @@
 {
-  "footer": {
-    "quickLinks": "Quick Links",
-    "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "blog": "Blog",
-    "blogText": "Tips, guides, and updates on modern electrical solutions for your home or business.",
-    "phone": "📞 Phone: +48 881 856 801",
-    "email": "✉️ Email: andrii.arutiunian@gmail.com",
-    "workingHours": "⏰ Working Hours: Mon-Fri, 7:00 - 17:00"
+  "Home": "Home",
+  "About": "About",
+  "Services": "Services",
+  "home": {
+    "title": "Electricity Service",
+    "company": "VAD-BUD",
+    "description": "We provide top-notch electrical services tailored to meet residential, commercial, and industrial needs. Our team of certified electricians ensures safety, efficiency, and satisfaction with every project.",
+    "services": {
+      "title": "Our Services",
+      "residential": {
+        "title": "Residential Services",
+        "description": "Providing reliable and professional electrical solutions tailored to meet the unique needs of your home"
+      },
+      "commercial": {
+        "title": "Commercial Services",
+        "description": "Delivering efficient and customized electrical services to power your business operations"
+      },
+      "electrical": {
+        "title": "Electrical Services",
+        "description": "Offering comprehensive electrical solutions to ensure safety, reliability, and energy efficiency"
+      },
+      "industrial": {
+        "title": "Industrial Services",
+        "description": "Providing advanced electrical services designed to support large-scale industrial operations"
+      }
+    },
+    "about": {
+      "title": "About Our Electricity Company",
+      "description": "We are dedicated to providing reliable and sustainable energy solutions tailored to your needs. With a commitment to safety, quality, and efficiency, we strive to power homes and businesses with innovation and care."
+    },
+    "customers": {
+      "title": "Customers",
+      "subtitle": "The People Behind Our Success",
+      "illia": "Looking for a reliable electrician? Illia Pryimak is an experienced professional who ensures high-quality and safe execution of all tasks.",
+      "andrii": "Need a skilled electrician? Andrii Arutunian is a true expert who will complete all tasks quickly, reliably, and safely."
+    }
   },
-  "socialMedia": {
-    "facebook": "Facebook",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn"
-  }
+   "about": {
+    "title": "About Our electricity Company",
+    "description": "We are dedicated to providing reliable and sustainable energy solutions tailored to your needs. With a commitment to safety, quality, and efficiency, we strive to power homes and businesses with innovation and care.",
+    "contact": {
+      "title": "Contact Information",
+      "phone": "Phone: +48 881 856 801",
+      "email": "Email: andrii.arutiunian@gmail.com",
+      "hours": "Working Hours: Mon-Fri, 7:00 - 17:00"
+    }
+  },
+  "Our Services": "Our Services",
+  "Residential Services": "Residential Services",
+  "Residential Services Description": "Providing reliable and professional electrical solutions tailored to meet the unique needs of your home",
+  "Commercial Services": "Commercial Services",
+  "Commercial Services Description": "Delivering efficient and customized electrical services to power your business operations",
+  "Electrical Services": "Electrical Services",
+  "Electrical Services Description": "Offering comprehensive electrical solutions to ensure safety, reliability, and energy efficiency",
+  "Industrial Services": "Industrial Services",
+  "Industrial Services Description": "Providing advanced electrical services designed to support large-scale industrial operations",
+  "Service Name": "Service Name",
+  "Price": "Price",
+  "Express Electrical Services": "Express Electrical Services",
+  "Price is agreed on-site": "Price is agreed on-site",
+  "Basic Electrical Installation Works": "Basic Electrical Installation Works",
+  "Panel Works and Electrical Equipment Connection": "Panel Works and Electrical Equipment Connection",
+  "Cable Systems Installation and Repair": "Cable Systems Installation and Repair",
+  "Installation and replacement of sockets": "Installation and replacement of sockets",
+  "Installation and replacement of switches": "Installation and replacement of switches",
+  "Mounting and connecting lighting fixtures": "Mounting and connecting lighting fixtures",
+  "Laying electrical wiring": "Laying electrical wiring",
+  "Installation of distribution boxes": "Installation of distribution boxes",
+  "Connecting and configuring doorbells and intercoms": "Connecting and configuring doorbells and intercoms",
+  "Installation and replacement of circuit breakers": "Installation and replacement of circuit breakers",
+  "Electrical panel installation": "Electrical panel installation",
+  "Connection of voltage stabilizers": "Connection of voltage stabilizers",
+  "Installation of voltage relays": "Installation of voltage relays",
+  "Connecting generators and UPS": "Connecting generators and UPS",
+  "Connecting electric boilers and water heaters": "Connecting electric boilers and water heaters",
+  "Installation and connection of air conditioners": "Installation and connection of air conditioners",
+  "Installation of open and concealed wiring": "Installation of open and concealed wiring",
+  "Laying cables in corrugated pipes or cable ducts": "Laying cables in corrugated pipes or cable ducts",
+  "Laying power cables to houses or apartments": "Laying power cables to houses or apartments",
+  "Troubleshooting and fixing wiring issues": "Troubleshooting and fixing wiring issues"
+
+  
 }

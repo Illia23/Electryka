@@ -1,18 +1,83 @@
 {
-  "footer": {
-    "quickLinks": "Szybkie linki",
-    "home": "Strona główna",
-    "about": "O nas",
-    "services": "Usługi",
-    "blog": "Blog",
-    "blogText": "Porady, przewodniki i aktualności dotyczące nowoczesnych rozwiązań elektrycznych dla Twojego domu lub firmy.",
-    "phone": "📞 Telefon: +48 881 856 801",
-    "email": "✉️ E-mail: andrii.arutiunian@gmail.com",
-    "workingHours": "⏰ Godziny pracy: Pon-Pt, 7:00 - 17:00"
+  "Home": "Strona Główna",
+  "About": "O nas",
+  "Services": "Usługi",
+  "home": {
+    "title": "Usługi Elektryczne",
+    "company": "VAD-BUD",
+    "description": "Świadczymy najwyższej jakości usługi elektryczne dostosowane do potrzeb klientów indywidualnych, firm i przemysłu. Nasz zespół certyfikowanych elektryków gwarantuje bezpieczeństwo, wydajność i pełne zadowolenie z każdego projektu.",
+    "services": {
+      "title": "Nasze Usługi",
+      "residential": {
+        "title": "Usługi dla domów",
+        "description": "Zapewnienie niezawodnych i profesjonalnych rozwiązań elektrycznych dostosowanych do indywidualnych potrzeb Twojego domu"
+      },
+      "commercial": {
+        "title": "Usługi komercyjne",
+        "description": "Efektywne i spersonalizowane usługi elektryczne wspierające działalność Twojej firmy"
+      },
+      "electrical": {
+        "title": "Usługi elektryczne",
+        "description": "Kompleksowe rozwiązania elektryczne zapewniające bezpieczeństwo, niezawodność i efektywność energetyczną"
+      },
+      "industrial": {
+        "title": "Usługi przemysłowe",
+        "description": "Zaawansowane usługi elektryczne wspierające duże operacje przemysłowe"
+      }
+    },
+    "about": {
+      "title": "O naszej firmie elektrycznej",
+      "description": "Zajmujemy się dostarczaniem niezawodnych i zrównoważonych rozwiązań energetycznych dostosowanych do Twoich potrzeb. Z zaangażowaniem w bezpieczeństwo, jakość i wydajność, staramy się zasilać domy i firmy z innowacją i troską."
+    },
+    "customers": {
+      "title": "Klienci",
+      "subtitle": "Ludzie stojący za naszym sukcesem",
+      "illia": "Szukasz niezawodnego elektryka? Illia Pryimak to doświadczony specjalista, który zapewnia wysoką jakość i bezpieczeństwo wykonania każdego zadania.",
+      "andrii": "Potrzebujesz fachowego elektryka? Andrii Arutunian to prawdziwy ekspert, który wykona wszystkie zadania szybko, niezawodnie i bezpiecznie."
+    }
   },
-  "socialMedia": {
-    "facebook": "Facebook",
-    "instagram": "Instagram",
-    "linkedin": "LinkedIn"
-  }
+  "about": {
+    "title": "O naszej firmie elektrycznej",
+    "description": "Zajmujemy się dostarczaniem niezawodnych i zrównoważonych rozwiązań energetycznych dostosowanych do Twoich potrzeb. Z zaangażowaniem w bezpieczeństwo, jakość i wydajność, staramy się zasilać domy i firmy z innowacją i troską.",
+    "contact": {
+      "title": "Informacje kontaktowe",
+      "phone": "Telefon: +48 881 856 801",
+      "email": "Email: andrii.arutiunian@gmail.com",
+      "hours": "Godziny pracy: Pon-Pt, 7:00 - 17:00"
+    }
+  },
+  "Our Services": "Nasze usługi",
+  "Residential Services": "Usługi mieszkaniowe",
+  "Residential Services Description": "Niezawodne i profesjonalne usługi elektryczne dostosowane do potrzeb Twojego domu",
+  "Commercial Services": "Usługi komercyjne",
+  "Commercial Services Description": "Efektywne i dostosowane usługi elektryczne dla Twojej firmy",
+  "Electrical Services": "Usługi elektryczne",
+  "Electrical Services Description": "Kompleksowe rozwiązania elektryczne zapewniające bezpieczeństwo i efektywność",
+  "Industrial Services": "Usługi przemysłowe",
+  "Industrial Services Description": "Zaawansowane usługi elektryczne dla zakładów przemysłowych",
+  "Service Name": "Nazwa usługi",
+  "Price": "Cena",
+  "Express Electrical Services": "Ekspresowe usługi elektryczne",
+  "Price is agreed on-site": "Cena ustalana na miejscu",
+  "Basic Electrical Installation Works": "Podstawowe prace instalacyjne",
+  "Panel Works and Electrical Equipment Connection": "Prace rozdzielcze i podłączenie sprzętu",
+  "Cable Systems Installation and Repair": "Montaż i naprawa systemów kablowych",
+  "Installation and replacement of sockets": "Instalacja i wymiana gniazdek",
+  "Installation and replacement of switches": "Instalacja i wymiana przełączników",
+  "Mounting and connecting lighting fixtures": "Montaż i podłączenie oświetlenia",
+  "Laying electrical wiring": "Układanie instalacji elektrycznej",
+  "Installation of distribution boxes": "Instalacja skrzynek rozdzielczych",
+  "Connecting and configuring doorbells and intercoms": "Podłączanie i konfiguracja dzwonków oraz domofonów",
+  "Installation and replacement of circuit breakers": "Montaż i wymiana wyłączników nadprądowych",
+  "Electrical panel installation": "Instalacja rozdzielni elektrycznej",
+  "Connection of voltage stabilizers": "Podłączenie stabilizatorów napięcia",
+  "Installation of voltage relays": "Instalacja przekaźników napięciowych",
+  "Connecting generators and UPS": "Podłączanie generatorów i UPS",
+  "Connecting electric boilers and water heaters": "Podłączanie bojlerów i podgrzewaczy wody",
+  "Installation and connection of air conditioners": "Instalacja i podłączenie klimatyzatorów",
+  "Installation of open and concealed wiring": "Instalacja kabli na powierzchni i pod tynkiem",
+  "Laying cables in corrugated pipes or cable ducts": "Układanie kabli w rurkach karbowanych lub kanałach kablowych",
+  "Laying power cables to houses or apartments": "Układanie kabli zasilających do domów lub mieszkań",
+  "Troubleshooting and fixing wiring issues": "Rozwiązywanie problemów i naprawa instalacji"
+
 }
